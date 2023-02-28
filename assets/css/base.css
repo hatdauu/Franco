@@ -1,0 +1,56 @@
+:root {
+    --black-color: #212121;
+    --text-color: #333333;
+    --white-color: #fff;
+    --border-color: rgba(51, 51, 51, 0.2);
+    --violet-color: #805aad;
+    --gray-bgr: #f3f3f3;
+    --star-color: #ffd560;
+    --sub-text-color: rgba(255, 255, 255, 0.3);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+.font-16px {
+    font-size: 16px;
+}
+
+.grid {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.position_relative {
+    position: relative;
+}
+
+/* flex */
+
+.flex_25 {
+    flex-basis: 25%;
+}
+
+.flex_33 {
+    flex-basis: 33.33333%;
+}
