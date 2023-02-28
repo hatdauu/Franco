@@ -717,3 +717,30 @@
     opacity: 0.6;
     cursor: pointer;
 }
+
+.slick-dots {
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 80px);
+    display: flex !important; 
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 90, 173, 0.5);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active button {
+    background-color: var(--violet-color);
+}
